@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1060" viewBox="0 0 1180 1060">
+<defs><filter id="shadow" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#182033" flood-opacity="0.16"/></filter></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="590" y="47" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="38" fill="#202630" font-style="italic" font-weight="bold">lbmodel</text>
+<rect x="70" y="88" width="510" height="911" rx="24" fill="#FAFBFD" stroke="#E7EBF0"/>
+<rect x="123" y="889" width="310" height="62" rx="12" fill="#F4F6F8" filter="url(#shadow)"/>
+<text x="278" y="920" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" fill="#202630">输入文本</text>
+<rect x="123" y="794" width="310" height="62" rx="12" fill="#FFE7A3" filter="url(#shadow)"/>
+<text x="278" y="825" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">Tokenizer Encoder</text>
+<rect x="123" y="699" width="310" height="62" rx="12" fill="#BED9EF" filter="url(#shadow)"/>
+<text x="278" y="721" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">Embedding</text>
+<text x="278" y="747" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="16" fill="#485769" font-style="italic" font-weight="bold">d = 768</text>
+<rect x="123" y="604" width="310" height="62" rx="12" fill="#DCC8EF" filter="url(#shadow)"/>
+<text x="278" y="635" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">Transformer Block</text>
+<rect x="123" y="509" width="310" height="62" rx="12" fill="#DADDE2" filter="url(#shadow)"/>
+<text x="278" y="540" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">RMSNorm</text>
+<rect x="123" y="414" width="310" height="62" rx="12" fill="#BED9EF" filter="url(#shadow)"/>
+<text x="278" y="445" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">Linear</text>
+<rect x="123" y="319" width="310" height="62" rx="12" fill="#F5BC93" filter="url(#shadow)"/>
+<text x="278" y="350" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">softmax</text>
+<rect x="123" y="224" width="310" height="62" rx="12" fill="#FFE7A3" filter="url(#shadow)"/>
+<text x="278" y="255" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">Tokenizer Decoder</text>
+<rect x="123" y="129" width="310" height="62" rx="12" fill="#F4F6F8" filter="url(#shadow)"/>
+<text x="278" y="160" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" fill="#202630">输出文本</text>
+<path d="M 278 886 L 278 859" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,859.00 273.50,870.00 282.50,870.00" fill="#28313b"/>
+<path d="M 278 791 L 278 764" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,764.00 273.50,775.00 282.50,775.00" fill="#28313b"/>
+<path d="M 278 696 L 278 669" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,669.00 273.50,680.00 282.50,680.00" fill="#28313b"/>
+<path d="M 278 601 L 278 574" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,574.00 273.50,585.00 282.50,585.00" fill="#28313b"/>
+<path d="M 278 506 L 278 479" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,479.00 273.50,490.00 282.50,490.00" fill="#28313b"/>
+<path d="M 278 411 L 278 384" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,384.00 273.50,395.00 282.50,395.00" fill="#28313b"/>
+<path d="M 278 316 L 278 289" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,289.00 273.50,300.00 282.50,300.00" fill="#28313b"/>
+<path d="M 278 221 L 278 194" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="278.00,194.00 273.50,205.00 282.50,205.00" fill="#28313b"/>
+<path d="M 435 620 C 552 550 552 715 435 651" fill="none" stroke="#C84C56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="435.00,651.00 442.66,660.09 446.83,652.11" fill="#C84C56"/>
+<text x="537" y="638" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="28" fill="#C84C56" font-style="italic" font-weight="bold">x8</text>
+<text x="884" y="369" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="30" fill="#202630" font-style="italic" font-weight="bold">Transformer Block</text>
+<rect x="679" y="408" width="410" height="474" rx="22" fill="#EDF5E8" stroke="#E1EAD9" filter="url(#shadow)"/>
+<rect x="745" y="798" width="278" height="58" rx="10" fill="#F8FAF7" filter="url(#shadow)"/>
+<text x="884" y="827" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" fill="#202630">输入</text>
+<rect x="745" y="685" width="278" height="58" rx="10" fill="#BED9EF" filter="url(#shadow)"/>
+<text x="884" y="704" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">GQA</text>
+<text x="884" y="729" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="15" fill="#485769" font-style="italic" font-weight="bold">8 Q-heads, 4 KV-heads, RoPE</text>
+<rect x="745" y="572" width="278" height="58" rx="10" fill="#FFE7A3" filter="url(#shadow)"/>
+<text x="884" y="591" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="26" fill="#202630" font-style="italic" font-weight="bold">SwiGLU</text>
+<text x="884" y="616" text-anchor="middle" dominant-baseline="central" font-family="Times New Roman,serif" font-size="15" fill="#485769" font-style="italic" font-weight="bold">hidden_d = 2432</text>
+<rect x="745" y="459" width="278" height="58" rx="10" fill="#F8FAF7" filter="url(#shadow)"/>
+<text x="884" y="488" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" fill="#202630">输出</text>
+<path d="M 884 794 L 884 747" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="884.00,747.00 879.50,758.00 888.50,758.00" fill="#28313b"/>
+<path d="M 884 681 L 884 634" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="884.00,634.00 879.50,645.00 888.50,645.00" fill="#28313b"/>
+<path d="M 884 568 L 884 521" fill="none" stroke="#28313b" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="884.00,521.00 879.50,532.00 888.50,532.00" fill="#28313b"/>
+</svg>
